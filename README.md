@@ -1,3 +1,3 @@
 # Suniukai-API
 BIT mokymuose atliktas darbas 
-https://kind-kirch-368653.netlify.app/
+https://suniukai-api1.netlify.app/
