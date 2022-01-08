@@ -1,0 +1,21 @@
+<div class="pagrindinis">
+    <div class="teksto_dalis">
+        <h1>Suniuku nuotrauku kolekcijos API</h1>
+        <p>
+            Perskaitykite mūsų dokumentus, kad sužinotumėte daugiau, arba išbandykite patys žemiau.
+
+Norite įtraukti savo šunį į kolekciją? Pateikite savo nuotraukas kaip ištraukimo užklausą čia.
+
+Reikia daugiau šuns savo gyvenime? Gaukite 1 Dog CEO Zine numerį – ketvirtinį verslo ir gyvenimo būdo žurnalą, skirtą šiuolaikiniam šuniui. Išskirtinis interviu su Skotiju Monopolio šunimi. Užsisakykite kopiją iš Side Orders Publishing. Siunta visame pasaulyje.
+        </p>
+    </div>
+    <div class="ivedimo_dalis">
+        <p>{{ apiNuoroda }}</p><button (click)="gautiSuniuka()">GAUTI</button>
+    </div>
+    <div class="atvaizdavimo_dalis">
+        <div>
+            <pre>{{ gautasJSON }}</pre>
+        </div>
+        <img [src]="nuotrauka" alt="">
+    </div>
+</div>

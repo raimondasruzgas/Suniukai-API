@@ -1,0 +1,42 @@
+.pagrindinis {
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+    margin-left: 350px;
+}
+.teksto_dalis{
+    margin-bottom: 30px;
+}
+.teksto_dalis h1{
+    margin-bottom: 20px;
+}
+.ivedimo_dalis{
+    display: flex;
+    margin-bottom: 20px;
+}
+.ivedimo_dalis p{
+    background-color: lightgray;
+    padding: 10px;
+}
+.ivedimo_dalis button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+.atvaizdavimo_dalis{
+    display: flex;
+    justify-content: left;
+}
+.atvaizdavimo_dalis pre {
+    background-color: lightgray;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+    overflow-x: scroll;
+}
+.atvaizdavimo_dalis img{
+    margin-left: 100px;
+    height: 300px;
+}
+
