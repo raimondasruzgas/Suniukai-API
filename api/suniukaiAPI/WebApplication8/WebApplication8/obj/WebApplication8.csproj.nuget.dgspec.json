@@ -1,34 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonas\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {}
+    "C:\\Users\\raimo\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonas\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {
+    "C:\\Users\\raimo\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonas\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+        "projectUniqueName": "C:\\Users\\raimo\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
         "projectName": "WebApplication8",
-        "projectPath": "C:\\Users\\Jonas\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonas\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\obj\\",
+        "projectPath": "C:\\Users\\raimo\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+        "packagesPath": "C:\\Users\\raimo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raimo\\Documents\\GitHub\\Suniukai-API\\api\\suniukaiAPI\\WebApplication8\\WebApplication8\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\raimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -39,7 +37,8 @@
         }
       },
       "frameworks": {
-        "net60": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -50,12 +49,25 @@
               "version": "[6.2.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
